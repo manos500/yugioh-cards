@@ -1,0 +1,31 @@
+.collection_container {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.collection_container.blurred {
+  filter: blur(3px);
+  pointer-events: none;
+}
+
+
+.collection_title {
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+  
+.cards_grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    gap: 15px;
+    justify-content: center;
+}
+
+
+
